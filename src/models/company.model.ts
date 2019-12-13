@@ -1,4 +1,6 @@
-import {Entity, model, property} from '@loopback/repository';
+import {Entity, model, property, hasMany} from '@loopback/repository';
+import { Address, AddressWithRelations } from './address.model';
+import { Contact } from './contact.model';
 
 @model({
   settings: {idInjection: false, postgresql: {schema: 'public', table: 'Company'}}
@@ -158,6 +160,16 @@ export class Company extends Entity {
   })
   thirdPartyCompanyId?: String;
 
+
+
+  @hasMany(()=>Address,{keyTo:"company_id",targetsMany:true})
+  address?:Address[]
+
+  @hasMany(()=>Contact,{keyTo:"companyid",targetsMany:true})
+  contacts?:Contact[]
+
+
+
   // Define well-known properties here
 
   // Indexer property to allow additional data
@@ -170,7 +182,8 @@ export class Company extends Entity {
 }
 
 export interface CompanyRelations {
-  // describe navigational properties here
+  address?:CompanyWithRelations[]
+  contacts?:CompanyWithRelations[]
 }
 
 export type CompanyWithRelations = Company & CompanyRelations;

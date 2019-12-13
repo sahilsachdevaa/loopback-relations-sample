@@ -1313,17 +1313,25 @@
         "version": "c961c2a27e2cb601813b70fae135efa3c0a6dcfee1f32f4ecd4c06363cfb3cc1",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
+      "./src/models/address.model.ts": {
+        "version": "926c19c7c6f95d34db5f0832ed51eb1c15b88aef3e933a24baff0ff99fcde168",
+        "signature": "d0021ecdb2268a0b99a068e3b4ca119d186df30cbaa9de40bc6362e0c97d4384"
+      },
+      "./src/models/contact.model.ts": {
+        "version": "842f908c2384a9ab4acec30e787ddf35444d7a07933111be05e36212623f7c33",
+        "signature": "f1f1af2348686e7bf7772f28338a76a3cd05f131cd1cc58e564787f963d02115"
+      },
       "./src/models/company.model.ts": {
-        "version": "e1d8fcdf5b8e153592e9d3956a9a68fe8d77acef91a04f4c75506636594bafa6",
-        "signature": "aa203f1a752543a0db25a8df43887272c3d0894a06426b43aa27d8f6a1afa604"
+        "version": "5257bb8a7e1771c7c373f8b2df2989d5af82ecfcd83de1a10fec754135bb3647",
+        "signature": "b0ee040b6e0297edae2c3e55dfa8f8d19374c7ce125fed63102c167a11fe2264"
       },
       "./src/models/usercompany.model.ts": {
         "version": "f8844e1395b4ba58dac61eb4779ae5683c52f652d90f78d0d668a997e528b35b",
         "signature": "2076696e061da8b816aced49155d7201823583faa9dcaf3299722893dd7c949e"
       },
       "./src/models/index.ts": {
-        "version": "1bc0813d21e3edf4d3e641a999dbb90b6324b2c37f249e4f4400a466b1af9a2d",
-        "signature": "1bc0813d21e3edf4d3e641a999dbb90b6324b2c37f249e4f4400a466b1af9a2d"
+        "version": "85d905283a4446fd106920e45a53fec68b9783cee901c191675bcc039cf9fe66",
+        "signature": "85d905283a4446fd106920e45a53fec68b9783cee901c191675bcc039cf9fe66"
       },
       "./src/datasources/postgres.datasource.json": {
         "version": "cc33cecbe05f0c68c7be7e685c4070afa4594ba29eb93a176f03a01bd9049219"
@@ -1336,28 +1344,40 @@
         "version": "620014d4f16361d2f31645502b6912ac0cfd6267ee61d854b2f01a986a309390",
         "signature": "620014d4f16361d2f31645502b6912ac0cfd6267ee61d854b2f01a986a309390"
       },
+      "./src/repositories/address.repository.ts": {
+        "version": "80511740fbfc7e0b75201cfb34d86fddfd547dca715a239c43020bb0e94cc871",
+        "signature": "f9448207a8b5d1bea0faaf185191eeef837b0c5909d68f3e80d15886823520b3"
+      },
+      "./src/repositories/contact.repository.ts": {
+        "version": "795a7d29bf275cebb4c25f34601993dd72154ff5edc1afb616465b08815286bc",
+        "signature": "5f24d0d5c2d11588e6ea644b8db55c1fb57fb328a482e231cc460923b16e5a6a"
+      },
       "./src/repositories/company.repository.ts": {
-        "version": "e20e982a37f06d6c935d1f4f9e179c6baca089168a762843ea7f3797bab9eb4f",
-        "signature": "f29800b133187868b3798bcbc50254171498aacaa905778ba79187c43ed444ba"
+        "version": "f1528e86c84cca59c34bfec8c4c41508f90e634df6faf6c45c1855c0836eceb0",
+        "signature": "3267dc4bec698552448d5241802f1d6c964a55fb1b728fd9d537386ef8abc4c9"
       },
       "./src/repositories/usercompany.repository.ts": {
         "version": "126afa45b2ebac519372f0c3a695a625190212299ae75a4cccc1d1f81ad8a10a",
         "signature": "a4d924a1a5291ac9777b6758570260b28783f9a6f659125f461e758926223d9b"
       },
       "./src/repositories/index.ts": {
-        "version": "69beef28371cc8ea5bcceb071d25493b25ceff392eb4a463a1895f1b422f3c41",
-        "signature": "69beef28371cc8ea5bcceb071d25493b25ceff392eb4a463a1895f1b422f3c41"
+        "version": "05fb189e58bf725231c9d9d612d484677a0ac7ca285315a32b5af9ba85e10160",
+        "signature": "05fb189e58bf725231c9d9d612d484677a0ac7ca285315a32b5af9ba85e10160"
+      },
+      "./node_modules/@types/minimatch/index.d.ts": {
+        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633"
       },
       "./src/controllers/company.controller.ts": {
-        "version": "14c204616ccae51ac09b0ecfcf8417982c78e9d4a5ae9f283001ea0ca6762e5b",
-        "signature": "db89b08e751fb4e5f2efe9491fa6b7adab79d266732a061b103f0b3d0c3df8a9"
+        "version": "41d26e0df6d3b2d274eb606217dd14e4b71f3fb5a88ee3b45bd3feabc62a9e7e",
+        "signature": "54b6916d026b110e21b868a9eeaf45c4044cf003420faef3b9244ecdda92b2df"
       },
       "./src/controllers/ping.controller.ts": {
         "version": "470b5d86ecdb3c9a8a2fa8f91d4bdc321967327bad4ca27ce6c9ef32dd35c3c4",
         "signature": "80e3e158fbbb22cab068c3f91ec262086822f90ca629e02984060b8caf571993"
       },
       "./src/controllers/usercompany.controller.ts": {
-        "version": "6bfa788f99f26495f96dffb8ace3fe2d081622b0057942d30db197f1796d03c3",
+        "version": "9324d6f3b92963748075cc0428750b50c8995e9fc06c829bf2a99776e8bb6872",
         "signature": "45c5768f6ca48775cd49e2f2316fc3485dcf3ffdd117be57b600311b4ea5f7fb"
       },
       "./src/controllers/index.ts": {
@@ -1375,10 +1395,6 @@
       "./node_modules/@types/fs-extra/index.d.ts": {
         "version": "062fd391f70e8816148e3ba09f2aa5b26db4529f3007d6bfad7776526dd828e6",
         "signature": "062fd391f70e8816148e3ba09f2aa5b26db4529f3007d6bfad7776526dd828e6"
-      },
-      "./node_modules/@types/minimatch/index.d.ts": {
-        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
-        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633"
       },
       "./node_modules/@types/glob/index.d.ts": {
         "version": "d852d6282c8dc8156d26d6bda83ab4bde51fee05ba2fe0ecdc165ddda009d3ee",
@@ -3604,8 +3620,22 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/models/address.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/company.model.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/models/contact.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/company.model.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/models/company.model.ts": [
         "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/address.model.ts",
+        "./src/models/contact.model.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3618,6 +3648,8 @@
       "./src/models/index.ts": [
         "./src/models/company.model.ts",
         "./src/models/usercompany.model.ts",
+        "./src/models/address.model.ts",
+        "./src/models/contact.model.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3637,11 +3669,30 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/repositories/address.repository.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts",
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/repositories/contact.repository.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts",
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/repositories/company.repository.ts": [
         "./node_modules/@loopback/repository/index.d.ts",
         "./src/models/index.ts",
         "./src/datasources/index.ts",
         "./node_modules/@loopback/core/index.d.ts",
+        "./src/repositories/address.repository.ts",
+        "./src/models/contact.model.ts",
+        "./src/repositories/contact.repository.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3657,6 +3708,12 @@
       "./src/repositories/index.ts": [
         "./src/repositories/company.repository.ts",
         "./src/repositories/usercompany.repository.ts",
+        "./src/repositories/address.repository.ts",
+        "./src/repositories/contact.repository.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/minimatch/index.d.ts": [
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3665,6 +3722,7 @@
         "./node_modules/@loopback/rest/index.d.ts",
         "./src/models/index.ts",
         "./src/repositories/index.ts",
+        "./node_modules/@types/minimatch/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3700,10 +3758,6 @@
       "./node_modules/@types/fs-extra/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/minimatch/index.d.ts": [
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5885,7 +5939,17 @@
         "./src/index.ts",
         "./node_modules/@loopback/testlab/index.d.ts"
       ],
+      "./src/models/address.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/company.model.ts"
+      ],
+      "./src/models/contact.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/company.model.ts"
+      ],
       "./src/models/company.model.ts": [
+        "./src/models/address.model.ts",
+        "./src/models/contact.model.ts",
         "./node_modules/@loopback/repository/index.d.ts"
       ],
       "./src/models/usercompany.model.ts": [
@@ -5893,7 +5957,9 @@
       ],
       "./src/models/index.ts": [
         "./src/models/company.model.ts",
-        "./src/models/usercompany.model.ts"
+        "./src/models/usercompany.model.ts",
+        "./src/models/address.model.ts",
+        "./src/models/contact.model.ts"
       ],
       "./src/datasources/postgres.datasource.ts": [
         "./node_modules/@loopback/core/index.d.ts",
@@ -5902,10 +5968,24 @@
       "./src/datasources/index.ts": [
         "./src/datasources/postgres.datasource.ts"
       ],
-      "./src/repositories/company.repository.ts": [
+      "./src/repositories/address.repository.ts": [
         "./src/datasources/index.ts",
         "./node_modules/@loopback/repository/index.d.ts",
         "./src/models/index.ts"
+      ],
+      "./src/repositories/contact.repository.ts": [
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/company.repository.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts",
+        "./src/models/contact.model.ts",
+        "./node_modules/@loopback/core/index.d.ts",
+        "./src/repositories/address.repository.ts",
+        "./src/repositories/contact.repository.ts",
+        "./src/datasources/index.ts"
       ],
       "./src/repositories/usercompany.repository.ts": [
         "./node_modules/@loopback/repository/index.d.ts",
@@ -5916,12 +5996,18 @@
       ],
       "./src/repositories/index.ts": [
         "./src/repositories/company.repository.ts",
-        "./src/repositories/usercompany.repository.ts"
+        "./src/repositories/usercompany.repository.ts",
+        "./src/repositories/address.repository.ts",
+        "./src/repositories/contact.repository.ts"
+      ],
+      "./node_modules/@types/minimatch/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/controllers/company.controller.ts": [
         "./src/repositories/index.ts",
-        "./src/models/index.ts",
-        "./node_modules/@loopback/repository/index.d.ts"
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts"
       ],
       "./src/controllers/ping.controller.ts": [
         "./node_modules/@loopback/rest/index.d.ts"
@@ -5947,10 +6033,6 @@
       "./node_modules/@types/fs-extra/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/minimatch/index.d.ts": [
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6307,27 +6389,31 @@
       "./src/__tests__/acceptance/test-helper.ts",
       "./src/__tests__/acceptance/home-page.acceptance.ts",
       "./src/__tests__/acceptance/ping.controller.acceptance.ts",
+      "./src/models/address.model.ts",
+      "./src/models/contact.model.ts",
       "./src/models/company.model.ts",
       "./src/models/usercompany.model.ts",
       "./src/models/index.ts",
       "./src/datasources/postgres.datasource.json",
       "./src/datasources/postgres.datasource.ts",
       "./src/datasources/index.ts",
+      "./src/repositories/address.repository.ts",
+      "./src/repositories/contact.repository.ts",
       "./src/repositories/company.repository.ts",
       "./src/repositories/usercompany.repository.ts",
       "./src/repositories/index.ts",
+      "./node_modules/@types/minimatch/index.d.ts",
       "./src/controllers/company.controller.ts",
       "./src/controllers/ping.controller.ts",
+      "./src/controllers/usercompany.controller.ts",
       "./src/controllers/index.ts",
       "./node_modules/@types/debug/index.d.ts",
       "./node_modules/@types/eslint-visitor-keys/index.d.ts",
       "./node_modules/@types/fs-extra/index.d.ts",
-      "./node_modules/@types/minimatch/index.d.ts",
       "./node_modules/@types/glob/index.d.ts",
       "./node_modules/@types/mocha/index.d.ts",
       "./node_modules/@types/on-finished/index.d.ts",
-      "./node_modules/@types/type-is/index.d.ts",
-      "./src/controllers/usercompany.controller.ts"
+      "./node_modules/@types/type-is/index.d.ts"
     ]
   },
   "version": "3.6.4"
