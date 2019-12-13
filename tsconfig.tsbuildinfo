@@ -1385,7 +1385,7 @@
         "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633"
       },
       "./src/controllers/company.controller.ts": {
-        "version": "bf7aec18d8bd2e05c240e92e2145d5fe683cf3bdd6aa619787a9720b7b59ccd0",
+        "version": "b3751267e36f0ff33922f0697dcdeb2e45bf50ae776ce90ad4abbbb14dd3cbb7",
         "signature": "82a99edf56a3d4f43fbf0313b5df3e6e3c8779455ef880ba4f8ad060c32d7ed4"
       },
       "./src/controllers/ping.controller.ts": {

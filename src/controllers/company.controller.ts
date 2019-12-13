@@ -17,7 +17,7 @@ import { filter } from 'minimatch';
 
 export class CompanyController {
   constructor(
-    @repository(CompanycontactRepository)
+    @repository(CompanyRepository)
     public companyRepository : CompanyRepository,
         @repository(ChartofaccountRepository)
     public chartofaccountRepository: ChartofaccountRepository,
@@ -42,7 +42,7 @@ export class CompanyController {
   async find(
     @param.query.object('filter', getFilterSchemaFor(Company)) filter?: Filter<Company>,
   ): Promise<Company[]> {
-    let result = await  this.companyRepository.find({include:[{relation:'address'}]});
+    let result = await  this.companyRepository.find({include:[{relation:'address'},{relation:'contacts'}]});
     return result;
   }
  
