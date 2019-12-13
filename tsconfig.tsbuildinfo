@@ -1329,9 +1329,17 @@
         "version": "f8844e1395b4ba58dac61eb4779ae5683c52f652d90f78d0d668a997e528b35b",
         "signature": "2076696e061da8b816aced49155d7201823583faa9dcaf3299722893dd7c949e"
       },
+      "./src/models/chartofaccount.model.ts": {
+        "version": "86a5f887067ad0ea0b778175ac0beb76118ab6128d70ed9222b8485255089d66",
+        "signature": "82dd579fd9256c9df5b16d3542d631b01ff16d020f2c041d9a53a0e0216cc84c"
+      },
+      "./src/models/companycontact.model.ts": {
+        "version": "5bf7ac0a285668b4a551fe49aed1fc466cc6100287b5db941a6c6f5bbabff737",
+        "signature": "8744b507da2b71dc0b8b504f6ab0ddf256f57392fcd6d0dde892c1c800e92527"
+      },
       "./src/models/index.ts": {
-        "version": "85d905283a4446fd106920e45a53fec68b9783cee901c191675bcc039cf9fe66",
-        "signature": "85d905283a4446fd106920e45a53fec68b9783cee901c191675bcc039cf9fe66"
+        "version": "6a96b860bbaea6b508064d810062d2dca6e813850a977fc097e90dd700fedaa2",
+        "signature": "6a96b860bbaea6b508064d810062d2dca6e813850a977fc097e90dd700fedaa2"
       },
       "./src/datasources/postgres.datasource.json": {
         "version": "cc33cecbe05f0c68c7be7e685c4070afa4594ba29eb93a176f03a01bd9049219"
@@ -1360,17 +1368,25 @@
         "version": "126afa45b2ebac519372f0c3a695a625190212299ae75a4cccc1d1f81ad8a10a",
         "signature": "a4d924a1a5291ac9777b6758570260b28783f9a6f659125f461e758926223d9b"
       },
+      "./src/repositories/chartofaccount.repository.ts": {
+        "version": "8a39f144f2e312901d0f00bf782bfa87f6ac10a6a1502c96e9173072ed10a3fd",
+        "signature": "c2f10393798b8328a64660084231667f3ac4b79b2f0365b2fd13bc743ddfeda4"
+      },
+      "./src/repositories/companycontact.repository.ts": {
+        "version": "75e00a46a6d0fbe23e2748d666cbeb62aea9f8894389069da6ef2a74f7a369ac",
+        "signature": "ff7a912b0706e9aca0e78435085e2e2431773d2290b1ec4e60b6661014b6de3c"
+      },
       "./src/repositories/index.ts": {
-        "version": "05fb189e58bf725231c9d9d612d484677a0ac7ca285315a32b5af9ba85e10160",
-        "signature": "05fb189e58bf725231c9d9d612d484677a0ac7ca285315a32b5af9ba85e10160"
+        "version": "9831ec974dc7e1a8894c81b91217d617160350a376ad1562d76a1a0dc4134576",
+        "signature": "9831ec974dc7e1a8894c81b91217d617160350a376ad1562d76a1a0dc4134576"
       },
       "./node_modules/@types/minimatch/index.d.ts": {
         "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
         "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633"
       },
       "./src/controllers/company.controller.ts": {
-        "version": "41d26e0df6d3b2d274eb606217dd14e4b71f3fb5a88ee3b45bd3feabc62a9e7e",
-        "signature": "54b6916d026b110e21b868a9eeaf45c4044cf003420faef3b9244ecdda92b2df"
+        "version": "bf7aec18d8bd2e05c240e92e2145d5fe683cf3bdd6aa619787a9720b7b59ccd0",
+        "signature": "82a99edf56a3d4f43fbf0313b5df3e6e3c8779455ef880ba4f8ad060c32d7ed4"
       },
       "./src/controllers/ping.controller.ts": {
         "version": "470b5d86ecdb3c9a8a2fa8f91d4bdc321967327bad4ca27ce6c9ef32dd35c3c4",
@@ -3645,11 +3661,23 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/models/chartofaccount.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/models/companycontact.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/models/index.ts": [
         "./src/models/company.model.ts",
         "./src/models/usercompany.model.ts",
         "./src/models/address.model.ts",
         "./src/models/contact.model.ts",
+        "./src/models/chartofaccount.model.ts",
+        "./src/models/companycontact.model.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3705,11 +3733,29 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/repositories/chartofaccount.repository.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts",
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/repositories/companycontact.repository.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts",
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/repositories/index.ts": [
         "./src/repositories/company.repository.ts",
         "./src/repositories/usercompany.repository.ts",
         "./src/repositories/address.repository.ts",
         "./src/repositories/contact.repository.ts",
+        "./src/repositories/chartofaccount.repository.ts",
+        "./src/repositories/companycontact.repository.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5955,11 +6001,19 @@
       "./src/models/usercompany.model.ts": [
         "./node_modules/@loopback/repository/index.d.ts"
       ],
+      "./src/models/chartofaccount.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts"
+      ],
+      "./src/models/companycontact.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts"
+      ],
       "./src/models/index.ts": [
         "./src/models/company.model.ts",
         "./src/models/usercompany.model.ts",
         "./src/models/address.model.ts",
-        "./src/models/contact.model.ts"
+        "./src/models/contact.model.ts",
+        "./src/models/chartofaccount.model.ts",
+        "./src/models/companycontact.model.ts"
       ],
       "./src/datasources/postgres.datasource.ts": [
         "./node_modules/@loopback/core/index.d.ts",
@@ -5994,11 +6048,23 @@
         "./src/repositories/company.repository.ts",
         "./src/datasources/index.ts"
       ],
+      "./src/repositories/chartofaccount.repository.ts": [
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/companycontact.repository.ts": [
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts"
+      ],
       "./src/repositories/index.ts": [
         "./src/repositories/company.repository.ts",
         "./src/repositories/usercompany.repository.ts",
         "./src/repositories/address.repository.ts",
-        "./src/repositories/contact.repository.ts"
+        "./src/repositories/contact.repository.ts",
+        "./src/repositories/chartofaccount.repository.ts",
+        "./src/repositories/companycontact.repository.ts"
       ],
       "./node_modules/@types/minimatch/index.d.ts": [
         "./node_modules/@types/node/util.d.ts",
@@ -6393,6 +6459,8 @@
       "./src/models/contact.model.ts",
       "./src/models/company.model.ts",
       "./src/models/usercompany.model.ts",
+      "./src/models/chartofaccount.model.ts",
+      "./src/models/companycontact.model.ts",
       "./src/models/index.ts",
       "./src/datasources/postgres.datasource.json",
       "./src/datasources/postgres.datasource.ts",
@@ -6401,9 +6469,10 @@
       "./src/repositories/contact.repository.ts",
       "./src/repositories/company.repository.ts",
       "./src/repositories/usercompany.repository.ts",
+      "./src/repositories/chartofaccount.repository.ts",
+      "./src/repositories/companycontact.repository.ts",
       "./src/repositories/index.ts",
       "./node_modules/@types/minimatch/index.d.ts",
-      "./src/controllers/company.controller.ts",
       "./src/controllers/ping.controller.ts",
       "./src/controllers/usercompany.controller.ts",
       "./src/controllers/index.ts",
@@ -6413,7 +6482,8 @@
       "./node_modules/@types/glob/index.d.ts",
       "./node_modules/@types/mocha/index.d.ts",
       "./node_modules/@types/on-finished/index.d.ts",
-      "./node_modules/@types/type-is/index.d.ts"
+      "./node_modules/@types/type-is/index.d.ts",
+      "./src/controllers/company.controller.ts"
     ]
   },
   "version": "3.6.4"
